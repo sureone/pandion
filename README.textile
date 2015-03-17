@@ -11,6 +11,14 @@ Visit the following web pages to learn more.
 * "Issue tracker":http://code.google.com/p/pandion/issues/list
 * "Developer documentation":http://pandion.pbworks.com/Deployment-Overview
 
+h2. build on windows XP
+
+
+install vs2010 express from microsoft
+install wix3.5 http://www.microsoft.com/en-us/download/confirmation.aspx?id=17657
+missed ”ROBOCOPY” => install windows resource kit tool  http://www.microsoft.com/en-us/download/confirmation.aspx?id=17657
+build最后一步生成installer 先要定义WIX环境变量，把 build_msi.bat 最后三步copy出来单独执行
+
 h2. Source Code License
 
 Pandion instant messenger software is published under the "GNU General Public License version 3.0 or later":http://www.gnu.org/licenses/gpl-3.0.html.
@@ -21,3 +29,7 @@ h2. Contact
 * "@pandion on Twitter":http://twitter.com/pandion
 * "Facebook.com/pandion.im":http://www.facebook.com/pandion.im
 * "Team members and contact addresses":http://pandion.im/about
+* "sureone" sureone@yeah.net
+
+
+
